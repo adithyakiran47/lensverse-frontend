@@ -1,0 +1,151 @@
+/* Reset & global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #ff0000, #000000);
+  color: white;
+}
+
+/* Common Section Styling */
+.section {
+  padding: 60px 10%;
+  text-align: center;
+  background: transparent;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #000;
+}
+
+.section p, .section ul {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: #003366;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0055aa;
+}
+
+/* Hero Icon */
+.hero-icon img {
+  width: 150px;
+  height: auto;
+  opacity: 0.9;
+}
+
+/* Services Section */
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin-bottom: 10px;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-grid img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: transparent;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-icon {
+    margin-top: 20px;
+  }
+
+  .hero-icon img {
+    width: 100px;
+  }
+  .footer {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 20px;
+  text-align: center;
+  color: #ddd;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content p {
+  margin: 6px 0;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer-content strong {
+  color: #ff4c4c;
+}
+
+}
+

@@ -1,0 +1,18 @@
+/* Header.css */
+#header {
+  /* background:linear-gradient(rgb(255, 0, 0),rgb(0, 0, 0)) ; */
+  padding: 15px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.485);
+}
+
+.head1 h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s ease;
+  padding: auto;
+}
+
+.head1 h1:hover {
+  color: white;
+}

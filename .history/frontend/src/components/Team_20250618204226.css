@@ -1,0 +1,56 @@
+#team {
+  display: flex;
+  padding: 30px;
+  margin-top: 40px;
+  padding-left: 0px;
+  justify-content: center;
+}
+
+.members h4 {
+  color: rgb(201, 161, 0);
+  text-align: center;
+  font-size: 60px;
+  font-family: "Teko", sans-serif;
+  margin-bottom: 20px;
+}
+
+.member {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+.kiran img,
+.vl img {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.397);
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kiran img:hover,
+.vl img:hover {
+  filter: grayscale(0%);
+}
+
+h5, h6 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+  color: white;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}

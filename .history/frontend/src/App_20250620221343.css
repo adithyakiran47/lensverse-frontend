@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.popup-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.popup-form {
+  background: transparent; /* ✅ remove white */
+  box-shadow: none;        /* optional: remove white drop shadow */
+  border: none;
+  padding: 0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.banner h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.banner button {
+  padding: 10px 20px;
+  background-color: #003f70;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.banner img {
+  max-width: 150px;
+  height: auto;
+}
+
+.banner-left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.banner-right {
+  flex: 0 0 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #a00202, #000000);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 20px;
+  text-align: center;
+  color: #ddd;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  /*border-top: 1px solid rgba(255, 255, 255, 0.1);*/
+}
+
+.footer-content p {
+  margin: 6px 0;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer-content strong {
+  color: #ff4c4c;
+}
+.popup-form {
+  height: 50vh;              /* ✅ 50% of screen height */
+  overflow-y: auto;          /* ✅ vertical scroll enabled */
+  overflow-x: hidden;        /* ❌ disable horizontal scroll */
+  padding: 30px;
+  border-radius: 20px;
+  background: transparent;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+.glass-form {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #111;
+}
+

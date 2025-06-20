@@ -1,0 +1,12 @@
+{
+  "project_type": "advancedio",
+  "project_name": "lensverse",
+  "features": {
+    "hosting": {
+      "app_type": "react",
+      "hosting_dir": "build",
+      "index": "index.html",
+      "error": "index.html"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+// src/components/Team.js
+import React from 'react';
+import './Team.css';
+
+const Team = () => {
+  return (
+    <div id="team">
+      <div className="container">
+        <div className="members">
+          <h4>FOUNDERS</h4>
+          <div className="member service-details">
+
+            <div className="kiran">
+              <img src="IMG_0384.JPG" alt="Adithya Kiran V" />
+              <h5>ADITHYA KIRAN V</h5>
+              <div className="social">
+                <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                  <img src="/insta.png" alt="Instagram" />
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+                  <img src="/linkedin.png" alt="LinkedIn" />
+                </a>
+              </div>
+            </div>
+
+            <div className="vl">
+              <img src="/vl.jpg" alt="Arun VL" />
+              <h6>ARUN VL</h6>
+              <div className="social">
+                <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                  <img src="/insta.png" alt="Instagram" />
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+                  <img src="/linkedin.png" alt="LinkedIn" />
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Team;

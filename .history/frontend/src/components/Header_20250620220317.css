@@ -1,0 +1,24 @@
+#header {
+  background: rgba(255, 255, 255, 0.1); /* Light transparent white */
+  backdrop-filter: blur(10px); /* Creates the frosted glass blur */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  padding: 15px 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.485);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Optional border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional soft shadow */
+  color:aliceblue;
+}
+
+.head1 h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  color: white;
+  transition: color 0.3s ease;
+  text-align: center;
+  margin: 0;
+  
+}
+
+.head1 h1:hover{
+  color:rgb(255, 116, 2);
+}
